@@ -1,7 +1,7 @@
 const url = "https://raw.githubusercontent.com/googlearchive/android-Quiz/master/Application/src/main/assets/Quiz.json";
 const options = document.querySelectorAll(".options");
 const playAgainBtn = document.createElement("button");
-const resultBox = document.createElement("resultBox");
+const resultBox = document.createElement("section");
 playAgainBtn.innerHTML = "Play Again";
 playAgainBtn.classList.add("btn");
 resultBox.classList.add("resultBox");
