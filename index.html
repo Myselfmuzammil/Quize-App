@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Quize</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section id="QuizeBox">
+        <div id="question-box">
+          <div id="questionIndex"></div>
+          <h1 id="question"></h1>
+        </div>
+        <div class="box">
+          <input class="options" name="option" id="option1" value="0" type="radio" />
+          <label for="option1"></label>
+          <span id="timer"></span>
+        </div>
+        <div class="box">
+          <input class="options" name="option" id="option2" value="1" type="radio" />
+          <label for="option2"></label>
+        </div>
+        <div class="box">
+          <input class="options" name="option" id="option3" value="2" type="radio" />
+          <label for="option3"></label>
+        </div>
+        <div class="box">
+          <input class="options" name="option" id="option4" value="3" type="radio" />
+          <label for="option4"></label>
+        </div>
+        <button class="btn" onclick="submit()">Submit</button>
+      </section>
+    </main>
+    <script src="App.js"></script>
+  </body>
+</html>
